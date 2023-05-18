@@ -1,0 +1,65 @@
+
+body{
+    font: 1.1rem arial, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#container{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+section #lato{
+    width: 20%;
+    padding: 20px;
+}
+
+main{
+    width: 80%;
+    padding: 20%;
+}
+
+.videolista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.videocard {
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*colori tempo*/
+header{
+    background-color: aquamarine;
+}
+#container{
+    background-color: red;
+}
+
+#lato{
+    background-color: blanchedalmond;
+}
+main{
+    background-color: darkkhaki;
+}
